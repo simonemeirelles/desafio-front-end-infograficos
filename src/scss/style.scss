@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.header {
+    height: 72px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 51px;
+    margin-left: 178px;
+    margin-bottom: 18px;
+    &__logo {
+        height: inherit;
+        float: left;
+        img {
+            width: 316px;
+            height: 72px;
+        }
+    }
+    &__nav {
+        ul {
+          float: right;
+          li {
+              display: inline-block;
+            }
+        }
+    }
+}
+
+.banner {
+    position: relative;
+    border-top: 4px solid #b22d30;
+    &__slide {
+        width: 100%;
+    }
+    &__main {
+        height: 500px;
+    }
+    &__prev {
+      background-image: url(../../src/images/esquerda.png);
+      width: 4%;
+      height: 20%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 6%;
+      top: 45%;
+    }
+    &__next {
+      background-image: url(../../src/images/direita.png);
+      background-repeat: no-repeat;
+      width: 4%;
+      height: 20%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 6%;
+      top: 45%;
+    }
+}
+
+.news {
+    width: 80%;
+    margin: 0 auto;
+    &__block {
+      width: 277px;
+      height: 374px;
+      margin: 2%;
+      float: left;
+      border-left: 4px solid #b22d30;
+      padding-left: 27px;
+    }
+    &__header {
+        &-data {
+
+        }
+        &-editoria {
+            float: right;
+            font-weight: bold;
+        }
+        &-foto {
+            /*width: 276px;
+            height: 162px;*/
+        }
+    }
+    &__body {
+      &-titulo {
+        height: 26px;
+        overflow: hidden;
+      }
+      &-texto {
+          height: 110px;
+          overflow: hidden;
+      }
+    }
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
