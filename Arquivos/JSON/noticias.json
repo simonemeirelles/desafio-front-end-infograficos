@@ -5,6 +5,7 @@
       {
         "Editoria": "Esporte",
         "Id": "574c58853ecb94fd25aeb8a8",
+        "Acessos": "45",
         "Notícias": [
           {
             "Foto": "3.jpg",
@@ -41,6 +42,7 @@
       {
         "Editoria": "País",
         "Id": "574c58855db89f6a07313b69",
+        "Acessos": "75",
         "Notícias": [
           {
             "Foto": "5.jpg",
@@ -89,6 +91,7 @@
       {
         "Editoria": "Rio",
         "Id": "574c58856397f4d194810105",
+        "Acessos": "25",
         "Notícias": [
           {
             "Foto": "3.jpg",
@@ -107,6 +110,7 @@
       {
         "Editoria": "Cultura",
         "Id": "574c5885c9625c3a2fb3aa6c",
+        "Acessos": "30",
         "Notícias": [
           {
             "Foto": "8.jpg",
@@ -131,6 +135,7 @@
       {
         "Editoria": "Internacional",
         "Id": "574c588539869c276c9f54e8",
+        "Acessos": "50",
         "Notícias": [
           {
             "Foto": "1.jpg",

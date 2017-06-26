@@ -24,7 +24,7 @@ O desafio é realizar o desenvolvimento front-end da homepage de um jornal fict�
 * O pin/mark do mapa deve ser inserido via API do Google Maps
 
 ## Observações
-* Você está livre para escolher a estrutura de diretórios da aplicação 
+* Você está livre para escolher a estrutura de diretórios da aplicação
 * Você não deve utilizar nenhum framework CSS (Bootstrap, Foundation e etc) neste desafio.
 * Os arquivos .json não podem ser alterados
 * Dúvida? Entre em contato por email: mateus.santos@oglobo.com.br
@@ -37,7 +37,16 @@ O desafio é realizar o desenvolvimento front-end da homepage de um jornal fict�
 ## Como submeter seu projeto
 - Fork esse projeto
 - Coloque seu projeto no repositório
-- Escreva no arquivo README.md as instruções para rodar o mesmo 
+- Escreva no arquivo README.md as instruções para rodar o mesmo
 - Envie o link do repositório para mateus.santos@oglobo.com.br, com o assunto: TESTE - Front-End O Globo
 
 ## Boa sorte!
+
+
+## Comandos necessários para rodar do projeto
+
+- npm install
+
+- gulp
+
+- sass --watch style.scss:../../public/css/style.min.css --style compressed (Rodar dentro da pasta ./src/scss/ para gerar o css, atualmente ele já está atualizado, então somente é necessário rodá-lo se ocorrer alguma alteração no css)

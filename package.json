@@ -1,19 +1,29 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "Desafio Infoglobo",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Diego Marcelo Costa da Silva",
-  "license": "ISC",
+  "description": "Desafio Infoglobo\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "gulpfile.js",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0",
-  }
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomcsilva/desafio-front-end-infograficos.git"
+  },
+  "author": "Diego Marcelo Costa da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegomcsilva/desafio-front-end-infograficos/issues"
+  },
+  "homepage": "https://github.com/diegomcsilva/desafio-front-end-infograficos#readme"
 }

@@ -2,10 +2,141 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="public/css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Minuto News</title>
   </head>
   <body>
+    <div class="home">
+      <header class="header">
+          <div class="header__logo">
+            <img src="src/images/logo.png" alt="logo">
+          </div>
+          <div class="header__nav">
+            <div class="header__nav-block">
+              <div id="item" class="header__nav-item">Início<span class="contenthover"><span></div>
+              <div id="submenu" class="header__nav-menu">
+                  <a href="#">Submenu 01</a>
+                  <a href="#">Submenu 02</a>
+                  <a href="#">Submenu 03</a>
+              </div>
+            </div>
+              <div class="header__nav-block">
+              <div id="item" class="header__nav-item">Brasil<span class="contenthover"><span></div>
+              <div id="submenu" class="header__nav-menu">
+                  <a href="#">Submenu 01</a>
+                  <a href="#">Submenu 02</a>
+                  <a href="#">Submenu 03</a>
+                  <a href="#">Submenu 04</a>
+                  <a href="#">Submenu 05</a>
+              </div>
+            </div>
+              <div class="header__nav-block">
+              <div id="item" class="header__nav-item">Mundo<span class="contenthover"><span></div>
+              <div id="submenu" class="header__nav-menu">
+                  <a href="#">Submenu 01</a>
+                  <a href="#">Submenu 02</a>
+                  <a href="#">Submenu 03</a>
+                  <a href="#">Submenu 04</a>
+              </div>
+            </div>
+              <div class="header__nav-block">
+              <div id="item" class="header__nav-item">Blogs<span class="contenthover"><span></div>
+              <div id="submenu" class="header__nav-menu">
+                  <a href="#">Submenu 01</a>
+                  <a href="#">Submenu 02</a>
+                  <a href="#">Submenu 03</a>
+              </div>
+            </div>
+              <div class="header__nav-block">
+              <div id="item" class="header__nav-item">Assine<span class="contenthover"><span></div>
+              <div id="submenu" class="header__nav-menu">
+                  <a href="#">Submenu 01</a>
+                  <a href="#">Submenu 02</a>
+              </div>
+            </div>
+          </div>
+      </header>
+      <section class="banner">
+          <div onClick="prev()" class="banner__prev"></div>
+          <div class="" id="banner" class="banner__main">
+          </div>
+          <div onClick="next()" class="banner__next"></div>
+      </section>
+      <div class="editorias">
+        <h3>EDITORIAS</h3>
+        <div class="filtro">
+          <div class="ordenar">
+            <span>Ordenar Por:</span>
+            <select id="ordenar" class="filtro-data">
 
+            </select>
+          </div>
+          <div class="filtrar">
+            <span>Filtrar Por:</span>
+            <select id="filtro">
+               <option>EDITORIA</option>
+               <option value="Esporte">Esporte</option>
+               <option value="País">País</option>
+               <option value="Rio">Rio</option>
+               <option value="Cultura">Cultura</option>
+               <option value="Internacional">Internacional</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <section class="news" id="news"></section>
+      <span class="line"></span>
+      <section class="grafics">
+          <h2 class="grafic__title">EDITORIAS MAIS ACESSADAS</h2>
+          <div id="grafics">
 
+          </div>
+          <div class="grafics__text">
+            <h3>Título Aqui</h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+            </p>
+          </div>
+      </section>
+      <span class="line"></span>
+      <section class="map" id="map"></section>
+      <footer class="footer">
+          <div class="footer__left">
+              <div class="footer__left-block">
+                  <h4>ENTRE EM CONTATO</h4>
+                  <p>Onde nos achar</p>
+                  <div class="footer__left-block-endereco">
+                    <p>Rua dos Alfenerios, número 4</p>
+                    <p>00-91102</p>
+                    <p>Little Whitning</p>
+                    <p>Londres/Inglaterra</p>
+                    <p>(21) 4004 - 1234</p>
+                    <p>(21) 4004 - 4321</p>
+                    <p>contato@minutonews.com.br</p>
+                    <p>Aberto de segunda a sexta das 09h as 19h</p>
+                  </div>
+              </div>
+          </div>
+          <div class="footer__right">
+            <form class="footer__right-form" action="index.html" method="post">
+                <h4>Mande uma menssagem</h4>
+                <label for="nome">Seu nome:</label>
+                  <input type="text" name="nome" id="nome" required>
+                <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" required>
+                <label for="texto">Mensagem:</label>
+                  <textarea name="mensage" id="mensage" rows="8" cols="80">
+                  </textarea>
+                <button type="submit" name="button" class="buttom">Enviar</button>
+            </form>
+          </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="src\js\script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXahpvlfxx4v5xiJtoOhoC9saF-uVnI4U&callback=initMap">
+    </script>
   </body>
 </html>

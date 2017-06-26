@@ -2,13 +2,13 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var gls = require('gulp-live-server');
-var concat = require('gulp-concat');
+// var concat = require('gulp-concat');
 
-gulp.task('default', ['sass', 'watch', 'serve', 'concat']);
+gulp.task('default', ['sass', 'watch', 'serve']);
 
 gulp.task('sass', function() {
     return gulp.src('src/scss/*.scss')
-        .pipe(concat('style.min.css'))
+        // .pipe(concat('style.min.css'))
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('public/css'));
 });
